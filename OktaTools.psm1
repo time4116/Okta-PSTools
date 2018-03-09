@@ -1,3 +1,15 @@
+<#
+-Functions-
+OktaAppSearch
+Get-OktaUserID
+Get-OktaAppName
+Get-OktaUserAppName
+Set-OktaUserAppName
+Get-OktaUserEnrolledFactors
+Get-AllOktaApps
+Get-OktaAppADGroup
+#>
+
 $baseURL = 'https://company.okta.com/api/v1'
 $token = 'companyToken'
 $domain = 'companyDomain'
